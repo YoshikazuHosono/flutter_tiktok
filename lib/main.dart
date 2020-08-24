@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tiktok/HomePage.dart';
-import 'package:flutter_tiktok/content.dart';
+
+import 'ListPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,10 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "toktik",
-      home: HomePage()
-    );
+    return MaterialApp(title: "toktik", home: ListPage());
   }
 }
-
