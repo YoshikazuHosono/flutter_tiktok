@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'ListPage.dart';
+import 'HomePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,6 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: "toktik", home: ListPage());
+    return MaterialApp(title: "toktik", home: HomePage());
   }
 }

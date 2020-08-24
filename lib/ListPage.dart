@@ -45,6 +45,7 @@ class _ListPageState extends State<ListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: PageView(
+      key: PageStorageKey("_ListPageState"),
       controller: _pageController,
       scrollDirection: Axis.vertical,
       children: items,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tiktok/ListPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -10,8 +11,8 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   static List<Widget> _pageList = [
-    Container(color: Colors.red),
-    Container(color: Colors.blue),
+    ListPage(),
+    Container(color: Colors.yellow),
   ];
 
   @override
