@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'content.dart';
+
 class ListPage extends StatefulWidget {
   @override
   _ListPageState createState() => _ListPageState();
@@ -9,14 +11,22 @@ class _ListPageState extends State<ListPage> {
   PageController _pageController;
   int _selectedIndex = 0;
   List<Widget> items = <Widget>[
-    Container(color: Colors.blue),
-    Container(color: Colors.yellow),
-    Container(color: Colors.blue),
-    Container(color: Colors.yellow),
-    Container(color: Colors.blue),
-    Container(color: Colors.yellow),
-    Container(color: Colors.blue),
-    Container(color: Colors.yellow),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
+    ContentPage(Colors.green),
+    ContentPage(Colors.blue),
   ];
 
   @override
